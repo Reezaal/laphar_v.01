@@ -82,7 +82,7 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="{{ route('laporan.loket')}}" class="nav-link" >
+                                <a href="{{ route('loket.loket')}}" class="nav-link" >
                                     <i class="far fa-circle nav-icon" style="color: white"></i>
                                     <p style="color: white">Loket</p>
                                 </a>

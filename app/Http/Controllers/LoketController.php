@@ -17,7 +17,7 @@ class LoketController extends Controller
             $this->roles = $user->role;
 
             if ($this->role > 1) {
-                $this->profile = [$user->Loket];
+                $this->profile = [$user->Pegawai];
             } else {
                 $this->profile = [$user->Admin];
             }
@@ -31,7 +31,7 @@ class LoketController extends Controller
     {
         $data = Loket::all();
 
-        return view('loket.loket', compact('data'));
+        return view('laporan.loket', compact('data'));
     }
 
     

@@ -18,11 +18,7 @@ class RoleSeeder extends Seeder
         ]);
 
         DB::table('roles')->insert([
-            'nama'=>'TL',
-        ]);
-
-        DB::table('roles')->insert([
-            'nama'=>'Loket',
+            'nama'=>'Pegawai',
         ]);
     }
 }

@@ -120,7 +120,7 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="{{ route('loket.loket') }}" class="nav-link"
+                                    <a href="{{ route('laporan.loket') }}" class="nav-link"
                                         style="background-color: white">
                                         <i class="far fa-circle nav-icon" style="color: black"></i>
                                         <p style="color: black">Loket</p>
@@ -304,15 +304,6 @@
                                         <th>1</th>
                                     </tr> --}}
                                         </tbody>
-                                        <tfoot>
-                                            <tr>
-                                                <th>Tanggal</th>
-                                                <th>Migrasi</th>
-                                                <th>Multiguna</th>
-                                                <th>PB</th>
-                                                <th>PD</th>
-                                            </tr>
-                                        </tfoot>
                                     </table>
                                 </div>
                                 <!-- /.card-body -->
